@@ -2,6 +2,10 @@
 
 This repository contains a browser-based review demo of **u-topia**, a travel-planning and travel-money app. The web version recreates the iOS app's main screens and interactions in a fixed, portrait phone frame for presentations and judging.
 
+## Live demo
+
+Open the [u-topia web demo](https://jamesswnn.github.io/u-topia-web-demo/).
+
 ## Demo overview
 
 - The interface is fixed at **393 × 852 px** and is intentionally not responsive. Open it on a desktop and view the complete phone-sized canvas.
