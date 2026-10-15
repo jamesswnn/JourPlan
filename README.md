@@ -1,10 +1,10 @@
-# u-topia Web Demo
+# JourPlan
 
-This repository contains a browser-based review demo of **u-topia**, a travel-planning and travel-money app. The web version recreates the iOS app's main screens and interactions in a fixed, portrait phone frame for presentations and judging.
+This repository contains **JourPlan**, a browser-based review demo of a travel-planning and travel-money app. It recreates the iOS app's main screens and interactions in a fixed, portrait phone frame for presentations and judging.
 
 ## Live demo
 
-Open the [u-topia web demo](https://jamesswnn.github.io/u-topia-web-demo/).
+Open the [JourPlan web demo](https://jamesswnn.github.io/JourPlan/).
 
 ## Demo overview
 
@@ -29,7 +29,7 @@ Open <http://localhost:8000>. Camera access is available on `localhost` or on an
 - `index.html` — page entry point
 - `styles.css` — fixed-size mobile layout and visual styling
 - `app.js` — screens, interactions, local persistence, API calls, and OCR flow
-- `u_topia/` — original SwiftUI iOS project source
+- `JourPlan/` — original SwiftUI iOS project source
 
 ## Demo notes
 

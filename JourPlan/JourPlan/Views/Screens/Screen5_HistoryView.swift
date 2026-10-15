@@ -1,6 +1,6 @@
 //
 //  Screen5_HistoryView.swift
-//  u_topia
+//  JourPlan
 //
 
 import SwiftUI

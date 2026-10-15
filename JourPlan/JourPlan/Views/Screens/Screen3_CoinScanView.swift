@@ -1,6 +1,6 @@
 //
 //  Screen3_CoinScanView.swift
-//  u_topia
+//  JourPlan
 //
 
 import SwiftUI

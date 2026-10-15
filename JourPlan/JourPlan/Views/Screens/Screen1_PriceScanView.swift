@@ -1,6 +1,6 @@
 //
 //  Screen1_PriceScanView.swift
-//  u_topia
+//  JourPlan
 //
 
 import SwiftUI

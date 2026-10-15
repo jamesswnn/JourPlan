@@ -1,6 +1,6 @@
 //
 //  CameraManager.swift
-//  u_topia
+//  JourPlan
 //
 
 import Foundation
@@ -42,8 +42,8 @@ public final class CameraManager: NSObject, ObservableObject, AVCaptureVideoData
     public let session = AVCaptureSession()
     private let photoOutput = AVCapturePhotoOutput()
     private let videoOutput = AVCaptureVideoDataOutput()
-    private let sessionQueue = DispatchQueue(label: "u_topia.camera.sessionQueue")
-    private let visionQueue = DispatchQueue(label: "u_topia.camera.liveOCR")
+    private let sessionQueue = DispatchQueue(label: "JourPlan.camera.sessionQueue")
+    private let visionQueue = DispatchQueue(label: "JourPlan.camera.liveOCR")
     private let trackingLock = NSLock()
     private var liveTrackingEnabled = false
     private var lastVisionRunAt = Date.distantPast

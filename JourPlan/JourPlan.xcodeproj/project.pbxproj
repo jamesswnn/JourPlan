@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		75D1B739307CE40F0047D512 /* u_topia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = u_topia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D1B739307CE40F0047D512 /* JourPlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JourPlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		75D1B73B307CE40F0047D512 /* u_topia */ = {
+		75D1B73B307CE40F0047D512 /* JourPlan */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = u_topia;
+			path = JourPlan;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -30,7 +30,7 @@
 		75D1B730307CE40F0047D512 = {
 			isa = PBXGroup;
 			children = (
-				75D1B73B307CE40F0047D512 /* u_topia */,
+				75D1B73B307CE40F0047D512 /* JourPlan */,
 				75D1B73A307CE40F0047D512 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -38,7 +38,7 @@
 		75D1B73A307CE40F0047D512 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				75D1B739307CE40F0047D512 /* u_topia.app */,
+				75D1B739307CE40F0047D512 /* JourPlan.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -46,9 +46,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		75D1B738307CE40F0047D512 /* u_topia */ = {
+		75D1B738307CE40F0047D512 /* JourPlan */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 75D1B744307CE4110047D512 /* Build configuration list for PBXNativeTarget "u_topia" */;
+			buildConfigurationList = 75D1B744307CE4110047D512 /* Build configuration list for PBXNativeTarget "JourPlan" */;
 			buildPhases = (
 				75D1B735307CE40F0047D512 /* Sources */,
 				75D1B736307CE40F0047D512 /* Frameworks */,
@@ -57,11 +57,11 @@
 			buildRules = (
 			);
 			fileSystemSynchronizedGroups = (
-				75D1B73B307CE40F0047D512 /* u_topia */,
+				75D1B73B307CE40F0047D512 /* JourPlan */,
 			);
-			name = u_topia;
-			productName = u_topia;
-			productReference = 75D1B739307CE40F0047D512 /* u_topia.app */;
+			name = JourPlan;
+			productName = JourPlan;
+			productReference = 75D1B739307CE40F0047D512 /* JourPlan.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -79,7 +79,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 75D1B734307CE40F0047D512 /* Build configuration list for PBXProject "u_topia" */;
+			buildConfigurationList = 75D1B734307CE40F0047D512 /* Build configuration list for PBXProject "JourPlan" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -93,7 +93,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				75D1B738307CE40F0047D512 /* u_topia */,
+				75D1B738307CE40F0047D512 /* JourPlan */,
 			);
 		};
 /* End PBXProject section */
@@ -115,7 +115,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		75D1B742307CE4110047D512 /* Debug configuration for PBXProject "u_topia" */ = {
+		75D1B742307CE4110047D512 /* Debug configuration for PBXProject "JourPlan" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -178,7 +178,7 @@
 			};
 			name = Debug;
 		};
-		75D1B743307CE4110047D512 /* Release configuration for PBXProject "u_topia" */ = {
+		75D1B743307CE4110047D512 /* Release configuration for PBXProject "JourPlan" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -234,7 +234,7 @@
 			};
 			name = Release;
 		};
-		75D1B745307CE4110047D512 /* Debug configuration for PBXNativeTarget "u_topia" */ = {
+		75D1B745307CE4110047D512 /* Debug configuration for PBXNativeTarget "JourPlan" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -245,7 +245,8 @@
 				DEVELOPMENT_TEAM = XBV2224N9Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "u_topia uses the camera to scan price tags and verify your change.";
+				INFOPLIST_KEY_CFBundleDisplayName = JourPlan;
+				INFOPLIST_KEY_NSCameraUsageDescription = "JourPlan uses the camera to scan price tags and verify your change.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -256,7 +257,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "james.u-topia";
+				PRODUCT_BUNDLE_IDENTIFIER = "james.jourplan";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -269,7 +270,7 @@
 			};
 			name = Debug;
 		};
-		75D1B746307CE4110047D512 /* Release configuration for PBXNativeTarget "u_topia" */ = {
+		75D1B746307CE4110047D512 /* Release configuration for PBXNativeTarget "JourPlan" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -280,7 +281,8 @@
 				DEVELOPMENT_TEAM = XBV2224N9Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "u_topia uses the camera to scan price tags and verify your change.";
+				INFOPLIST_KEY_CFBundleDisplayName = JourPlan;
+				INFOPLIST_KEY_NSCameraUsageDescription = "JourPlan uses the camera to scan price tags and verify your change.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -291,7 +293,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "james.u-topia";
+				PRODUCT_BUNDLE_IDENTIFIER = "james.jourplan";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -307,19 +309,19 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		75D1B734307CE40F0047D512 /* Build configuration list for PBXProject "u_topia" */ = {
+		75D1B734307CE40F0047D512 /* Build configuration list for PBXProject "JourPlan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				75D1B742307CE4110047D512 /* Debug configuration for PBXProject "u_topia" */,
-				75D1B743307CE4110047D512 /* Release configuration for PBXProject "u_topia" */,
+				75D1B742307CE4110047D512 /* Debug configuration for PBXProject "JourPlan" */,
+				75D1B743307CE4110047D512 /* Release configuration for PBXProject "JourPlan" */,
 			);
 			defaultConfigurationName = Release;
 		};
-		75D1B744307CE4110047D512 /* Build configuration list for PBXNativeTarget "u_topia" */ = {
+		75D1B744307CE4110047D512 /* Build configuration list for PBXNativeTarget "JourPlan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				75D1B745307CE4110047D512 /* Debug configuration for PBXNativeTarget "u_topia" */,
-				75D1B746307CE4110047D512 /* Release configuration for PBXNativeTarget "u_topia" */,
+				75D1B745307CE4110047D512 /* Debug configuration for PBXNativeTarget "JourPlan" */,
+				75D1B746307CE4110047D512 /* Release configuration for PBXNativeTarget "JourPlan" */,
 			);
 			defaultConfigurationName = Release;
 		};

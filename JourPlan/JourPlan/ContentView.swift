@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  u_topia
+//  JourPlan
 //
 //  Created by MahidolLibrary Mac-4 on 12/10/2569 BE.
 //

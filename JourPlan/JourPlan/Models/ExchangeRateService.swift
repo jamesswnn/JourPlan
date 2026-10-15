@@ -1,6 +1,6 @@
 //
 //  ExchangeRateService.swift
-//  u_topia
+//  JourPlan
 //
 
 import Foundation

@@ -1,6 +1,6 @@
 //
 //  Screen4_AdjustAmountView.swift
-//  u_topia
+//  JourPlan
 //
 
 import SwiftUI

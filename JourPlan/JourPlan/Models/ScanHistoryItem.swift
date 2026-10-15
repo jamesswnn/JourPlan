@@ -1,6 +1,6 @@
 //
 //  ScanHistoryItem.swift
-//  u_topia
+//  JourPlan
 //
 
 import Foundation
