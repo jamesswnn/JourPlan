@@ -1,0 +1,13 @@
+# macOS and Finder metadata
+.DS_Store
+
+# Xcode local state and build products
+**/xcuserdata/
+**/*.xcuserstate
+**/DerivedData/
+build/
+
+# Local secrets and environment configuration
+.env
+.env.*
+!.env.example
